@@ -11,7 +11,7 @@ public class AppRestController {
 	private WorkerBean worker;
 	
 	@RequestMapping("/longProcess")
-    public String longProcess() {
+    	public String longProcess() {
 
         System.out.println("Starting long process...");
         worker.call();
